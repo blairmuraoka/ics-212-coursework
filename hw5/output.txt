@@ -1,0 +1,9 @@
+Script started on Tue Oct 04 20:43:16 2016
+uhx01% make
+gcc -c main.c
+gcc -o hw5 main.o iofunctions.o
+uhx01% ./hw5
+Error: File doesn't exist. Exiting...
+uhx01% exit
+uhx01% 
+script done on Tue Oct 04 20:43:22 2016

@@ -1,0 +1,65 @@
+Script started on Tue Aug 30 14:43:18 2016
+uhx01% . gcc -c hw1.c
+uhx01% gcc - hw   o hw1 hw1.o
+uhx01% ./hw1
+This program will accept a user-inputted integer and convert it from Celsius to
+ Fahrenheit in increments of five.
+Please enter a maximum temperature in Celsius (C): 0
+Error, please enter a valid integer greater than 0.
+Please enter a maximum temperature in Celsius (C): string
+Error, please enter a valid integer greater than 0.
+Please enter a maximum temperature in Celsius (C): -5
+Error, please enter a valid integer greater than 0.
+Please enter a maximum temperature in Celsius (C): 21
+
+        Temperature in C        Temperature in F
+                       0                   32.00
+                       5                   41.00
+                      10                   50.00
+                      15                   59.00
+                      20                   68.00
+                      25                   77.00
+uhx01% ./hw1
+This program will accept a user-inputted integer and convert it from Celsius to
+ Fahrenheit in increments of five.
+Please enter a maximum temperature in Celsius (C): 44
+
+        Temperature in C        Temperature in F
+                       0                   32.00
+                       5                   41.00
+                      10                   50.00
+                      15                   59.00
+                      20                   68.00
+                      25                   77.00
+                      30                   86.00
+                      35                   95.00
+                      40                  104.00
+                      45                  113.00
+uhx01% gc  ./hw1
+This program will accept a user-inputted integer and convert it from Celsius to
+ Fahrenheit in increments of five.
+Please enter a maximum temperature in Celsius (C): 34 6
+
+        Temperature in C        Temperature in F
+                       0                   32.00
+                       5                   41.00
+                      10                   50.00
+                      15                   59.00
+                      20                   68.00
+                      25                   77.00
+                      30                   86.00
+                      35                   95.00
+                      40                  104.00
+uhx01% ./hw1
+This program will accept a user-inputted integer and convert it from Celsius to
+ Fahrenheit in increments of five.
+Please enter a maximum temperature in Celsius (C): 15
+
+        Temperature in C        Temperature in F
+                       0                   32.00
+                       5                   41.00
+                      10                   50.00
+                      15                   59.00
+uhx01% exit
+uhx01% 
+script done on Tue Aug 30 14:44:20 2016

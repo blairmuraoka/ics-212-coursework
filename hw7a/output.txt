@@ -1,0 +1,39 @@
+Script started on Wed Nov 02 16:09:27 2016
+uhx01% make
+gcc -c main.c
+make: Warning: File `iofunctions.c' has modification time 1.1e+02 s in the future
+gcc -c iofunctions.c
+gcc -o hw7a main.o iofunctions.o -lm
+make: warning:  Clock skew detected.  Your build may be incomplete.
+uhx01% ./hw7a
+ÿ¿üÿ;„€
+Hex Values:
+00 17 FF FF FF FF 00 00 17 FF FF FF FF FF 00 00 00 FF 00 00 
+Detailed print:
+source port: 23
+destination port: 65535
+sequence number: 4294901760
+acknowledgment number: 402653183
+data offset: 15
+reserved: 63
+flags: URG ACK PSH RST SYN FIN 
+window: 0
+checksum: 0x00FF
+urgent pointer: 0
+
+Hex Values:
+FF FF 00 17 FF FF 00 01 FF FF 00 00 F0 3F 00 00 FF FF 00 00 
+Detailed print:
+source port: 65535
+destination port: 23
+sequence number: 4294901761
+acknowledgment number: 4294901760
+data offset: 15
+reserved: 0
+flags: URG ACK PSH RST SYN FIN 
+window: 0
+checksum: 0xFFFF
+urgent pointer: 0
+uhx01% exit
+uhx01% 
+script done on Wed Nov 02 16:09:46 2016

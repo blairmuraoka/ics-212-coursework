@@ -1,0 +1,31 @@
+int list with n elements, n > 1
+
+int i,temp
+int counter = 0
+
+int num = some value
+
+int i = 0
+while i < n
+    // shift elements to the left if it is found
+    if num equals list[i]
+        temp = i
+        counter++
+
+        while temp < (n - 1)
+            list[temp] = list[temp + 1]
+        
+    i++
+end while
+
+if counter equals n
+    return 0
+else
+    int newlist with n - counter elements
+    i = 0
+
+    // copy over old elements
+    while i < n - counter
+        newlist[i] = list[i]
+return 0
+ 

@@ -1,0 +1,11 @@
+hw2b-2: hw2b-2.o
+	gcc -o hw2b-2 hw2b-2.o
+	
+hw2b-2.o: hw2b-2.c  
+	gcc -c hw2b-2.c
+
+run: 
+	-./hw2b-2
+    
+clean:
+	rm hw2b-2 *.o

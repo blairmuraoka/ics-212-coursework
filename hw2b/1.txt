@@ -1,0 +1,19 @@
+Script started on Tue Sep 06 20:59:16 2016
+uhx01% make -f Makefile2
+gcc -c hw2b-2.c
+gcc -o hw2b-2 hw2b-2.o
+uhx01% make run -f Makefile2
+./hw2b-2
+7
+NarayanNaraya
+NarayanNarayaNaray
+NarayanNarayaNarayNara
+NarayanNarayaNarayNaraNar
+NarayanNarayaNarayNaraNarNa
+NarayanNarayaNarayNaraNarNaN
+Strings are the same. 
+Strings are not the same. 
+NarayanNarayaNarayNaraNarNaN!
+uhx01% exit
+uhx01% 
+script done on Tue Sep 06 20:59:34 2016

@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+void dummy(int, char, char *, float);
+
+int main(int argc, char * argv[]) 
+{
+    int num1, num2 = 13;
+    char c = 'H';
+    float score1 = 12.5;
+    char ca[3] = "Hi";
+
+	printf("argc  : %u\n", &argc);
+    printf("argv  : %u\n", &argv);
+    printf("num1  : %u\n", &num1);
+    printf("num2  : %p\n", &num2);
+    printf("c     : %p\n", &c);
+    printf("score1: %u\n", &score1);
+    printf("ca[0] : %u\n", &ca[0]);
+    printf("ca[1] : %u\n", &ca[1]);
+    printf("ca[2] : %u\n", &ca[2]);
+	
+    dummy(num2, c, ca, score1);
+
+    return 0;
+}
+
+void dummy(int x, char y, char * z, float w)
+{
+    x++;
+    y++;
+    w = w + 2.3;
+	
+    printf("x     : %u\n", &x);
+	printf("y     : %u\n", &y);
+	printf("z     : %u\n", &z);
+	printf("w     : %u\n", &w);
+	
+}

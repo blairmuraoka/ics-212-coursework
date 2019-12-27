@@ -1,0 +1,19 @@
+Script started on Wed Nov 02 19:24:40 2016
+uhx01% make
+gcc -c hw7b.c
+gcc -o hw7b hw7b.o
+uhx01% ./hw7b
+enter number of miles as a number: 6
+Total cost for painting 6.000000 miles: $700
+uhx01% ./hw7b
+enter number of miles as a number: 6.1
+Total cost for painting 6.100000 miles: $2200
+uhx01% ./hw7b
+enter number of miles as a number: -1
+bad input
+uhx01% ./hw7b
+enter number of miles as a number: 0
+Total cost for painting 0.000000 miles: $200
+uhx01% exit
+uhx01% 
+script done on Wed Nov 02 19:25:42 2016

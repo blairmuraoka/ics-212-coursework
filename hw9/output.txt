@@ -1,0 +1,37 @@
+Script started on Fri Dec 02 14:18:22 2016
+uhx01% make
+make: Warning: File `Homework9.java' has modification time 91 s in the future
+javac Homework9.java
+javah Homework9
+gcc -fPIC -shared\
+                -I/usr/jdk/jdk1.7.0_51/include\
+                -I/usr/jdk/jdk1.7.0_51/include/solaris\
+                -I/home04/b/bmura/ics212/hw9/\
+                -o libHomework9.so Homework9.c
+make: warning:  Clock skew detected.  Your build may be incomplete.
+uhx01% java -Djava.library.path=. Homework9
+
+::TEMP CONVERSION PROGRAM (C to F)::
+Please enter a maximum temperature in Fahrenheit (C) --> string
+ERROR: Please enter a valid integer --> -5
+ERROR: Please enter a valid integer --> 0
+ERROR: Please enter a valid integer --> 24
+ input: 24
+ temp in C        temp in F
+         0             0.00
+         5            32.00
+        10            41.00
+        15            50.00
+        20            59.00
+        25            68.00
+uhx01% java -Djava.library.path=. Homework9
+
+::TEMP CONVERSION PROGRAM (C to F)::
+Please enter a maximum temperature in Fahrenheit (C) --> 9 9
+ input: 9
+ temp in C        temp in F
+         0             0.00
+         5            32.00
+        10            41.00
+uhx01% ^D
+script done on Fri Dec 02 14:19:55 2016

@@ -1,0 +1,29 @@
+Script started on Tue Nov 08 01:50:36 2016
+uhx01% make
+g++ -c hw8.cpp
+g++ -o hw8 hw8.o
+uhx01% ./hw8
+**********************************
+*[TEMPERATURE CONVERSION PROGRAM]*
+**********************************
+
+Please input a valid integer larger than 0: a
+1: Invalid input. Please input a valid integer larger than 0: ab
+1: Invalid input. Please input a valid integer larger than 0: -1
+2: Invalid input. Please input a valid integer larger than 0: 0
+2: Invalid input. Please input a valid integer larger than 0: 32s
+1: Invalid input. Please input a valid integer larger than 0: 41
+
+Temperature in C  Temperature in F
+               0                32
+               5                41
+              10                50
+              15                59
+              20                68
+              25                77
+              30                86
+              35                95
+              40               104
+              45               113
+uhx01% ^D
+script done on Tue Nov 08 01:51:04 2016
